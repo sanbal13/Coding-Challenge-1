@@ -55,10 +55,10 @@ table {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 32px auto;
+    padding: 0 32px;
 }
 .container-header {
-	max-width: 1500px;
+	max-width: 1600px;
 }
 .flex {
     display: flex;
@@ -92,7 +92,7 @@ body{
 	padding: 156px 0;
 }
 h1 {
-	font-size: 72px;
+	font-size: 64px;
 	font-weight: 900;
 	color: #012d5b;
 	line-height: 1.2;
@@ -176,27 +176,26 @@ a {
 	font-size: 14px;
 	font-weight: 500;
 }
+ .header-main {
+	padding: 10px 32px;
+} 
 .header-main a {
 	color: #22496f;
-}
-.header-main {
-	padding: 10px 0;
 }
 
 /* Hero Section */
 .hero {
 	background: url(../media/hero/h1_hero.jpg) no-repeat;
-	background-size: cover;
+	background-size: contain;
+	background-position: right bottom;
 }
-.hero .padding {
-	padding: 240px;
-}
+
 .hero h1 {
 	padding-bottom: 48px;
 }
 .hero-content {
 	text-transform: uppercase;
-	width: 48%;
+	width: 44%;
 }
 .hero-learn {
 	display: inline-block;
@@ -303,6 +302,7 @@ a {
 	background-color: #f8fafe;
 	position: relative;
 	padding: 320px 0;
+	overflow: hidden;
 }
 .cases-description {
 	width: 570px;
@@ -331,7 +331,7 @@ a {
 	color: #fbba42;
 }
 .review {
-	width: 62%;
+	width: 66%;
 	height: 400px;
 	font-weight: 500;
 }
@@ -343,7 +343,7 @@ a {
 	text-transform: uppercase;
 	font-size: 18px;
 }
-.review p {
+.review q {
 	text-align: center;
 	color: #191d34;
 	font-size: 26px;
